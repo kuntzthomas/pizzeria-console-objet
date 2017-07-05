@@ -38,7 +38,8 @@ public class PizzeriaAdminConsoleApp {
 			switch (choixMenu) {
 
 			case 1:
-
+				
+				System.out.println("1. Liste des pizzas");
 				listeDesPizzas();
 
 				break;
@@ -91,8 +92,6 @@ public class PizzeriaAdminConsoleApp {
 	 * Affichage de la liste des Pizzas
 	 */
 	private static void listeDesPizzas() {
-
-		System.out.println("1. Liste des pizzas");
 
 		for (int i = 0; i < listePizza.length; i++) {
 
