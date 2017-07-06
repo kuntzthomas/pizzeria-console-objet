@@ -186,9 +186,10 @@ public class PizzeriaAdminConsoleApp {
 		System.out.println("veuillez saisir le code");
 		String code = questionUser.next();
 		if (!code.equals("99")) {
+			
 			for (int i = 0; i < listePizza.length; i++) {
-
-				if (listePizza[i] != null && code.equals(listePizza[i].getCode())) {
+				
+				if (code.equals(listePizza[i].getCode())) {
 					
 					listePizza[i] = null;
 					break;
